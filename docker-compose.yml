@@ -1,0 +1,11 @@
+
+services:
+  server:
+    build:
+      context: .
+    ports:
+      - 6161:6161
+    command: npm run dev
+    working_dir: /app
+    volumes:
+      - ./:/app

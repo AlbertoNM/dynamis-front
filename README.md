@@ -1,1 +1,1 @@
-# dynamis-front
+# Dynamis frontend
